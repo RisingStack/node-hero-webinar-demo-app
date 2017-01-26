@@ -9,6 +9,7 @@ describe('root', function () {
       return request(server)
         .get('/')
         .expect(200, 'hello')
+        .end()
     })
   })
 })
