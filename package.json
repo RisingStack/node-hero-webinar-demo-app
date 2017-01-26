@@ -17,6 +17,9 @@
     "url": "https://github.com/RisingStack/node-hero-webinar-demo-app/issues"
   },
   "homepage": "https://github.com/RisingStack/node-hero-webinar-demo-app#readme",
+  "engines": {
+    "node": "6.9.4"
+  },
   "dependencies": {
     "express": "4.14.0"
   },
