@@ -5,10 +5,10 @@ const server = require('./server.js')
 
 describe('root', function () {
   describe('get endpoint', function () {
-    it('should reply with the text hello world', function () {
+    it('should reply with the text hello node hero', function () {
       return request(server)
         .get('/')
-        .expect(200, 'hello world')
+        .expect(200, 'hello node hero')
         .end()
     })
   })
