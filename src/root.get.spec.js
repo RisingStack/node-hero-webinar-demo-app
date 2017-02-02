@@ -8,7 +8,7 @@ describe('root', function () {
     it('should reply with the text hello world', function () {
       return request(server)
         .get('/')
-        .expect(200, 'hello world')
+        .expect(200, 'hello')
         .end()
     })
   })
